@@ -8,7 +8,9 @@
       "items": [
         {
           "type": "docSidebar",
-          "sidebarIds": ["mySidebar"],
+          "sidebarIds": [
+            "mySidebar"
+          ],
           "label": "Documentation",
           "position": "left"
         }
@@ -54,5 +56,25 @@
       "apiKey": "YOUR_API_KEY",
       "indexName": "YOUR_INDEX_NAME"
     }
-  }
+  },
+  "instances": [
+    {
+      "id": "default",
+      "label": "docs",
+      "path": "docs",
+      "routeBasePath": ""
+    },
+    {
+      "id": "web",
+      "label": "web",
+      "path": "web_docs",
+      "routeBasePath": "web"
+    },
+    {
+      "id": "flutter",
+      "label": "flutter",
+      "path": "flutter_docs",
+      "routeBasePath": "flutter"
+    }
+  ]
 }
